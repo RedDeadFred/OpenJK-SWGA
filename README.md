@@ -19,6 +19,7 @@ Star Wars: Galactic Adventures is partnered with the Star Wars: Galactic Adventu
 * Linken
 * The New Order
 * Awec
+* RedDeadFred
 
 # OpenJK
 
