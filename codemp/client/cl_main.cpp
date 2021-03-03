@@ -2360,7 +2360,7 @@ static IHeapAllocator *GetG2VertSpaceServer( void ) {
 	return G2VertSpaceServer;
 }
 
-#define DEFAULT_RENDER_LIBRARY "rdmp_swgl"
+#define DEFAULT_RENDER_LIBRARY "rdmp_swga"
 
 void CL_InitRef( void ) {
 	static refimport_t ri;

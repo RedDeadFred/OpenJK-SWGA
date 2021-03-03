@@ -321,7 +321,7 @@ if(BuildSPEngine OR BuildJK2SPEngine)
 
 	if(WIN32)
 		set(SPEngineWin32Files
-			"${SPDir}/win32/swgl-sp.ico"
+			"${SPDir}/win32/swga-sp.ico"
 			"${SPDir}/win32/resource.h"
 			"${SPDir}/win32/winquake.rc"
 			"${SharedDir}/sys/win_manifest.manifest"
@@ -373,8 +373,8 @@ if(BuildSPEngine OR BuildJK2SPEngine)
 	# project macro so we can invoke it twice: for jk2 and for ja
 	function(add_sp_project ProjectName Label SPDirName InstallDir Component)
 		if(MakeApplicationBundles)
-			set_source_files_properties(${SPDirName}/macosx/swgl-sp.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
-			set(SPEngineFiles ${SPEngineFiles} ${SPDirName}/macosx/swgl-sp.icns)
+			set_source_files_properties(${SPDirName}/macosx/swga-sp.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
+			set(SPEngineFiles ${SPEngineFiles} ${SPDirName}/macosx/swga-sp.icns)
 			set_source_files_properties(${SPDirName}/macosx/English.lproj/InfoPlist.strings PROPERTIES MACOSX_PACKAGE_LOCATION Resources/English.lproj)
 			set(SPEngineFiles ${SPEngineFiles} ${SPDirName}/macosx/English.lproj/InfoPlist.strings)
 		endif(MakeApplicationBundles)

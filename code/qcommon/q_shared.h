@@ -73,17 +73,17 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
 #define HOMEPATH_NAME_WIN "OpenJO"
 #define HOMEPATH_NAME_MACOSX HOMEPATH_NAME_WIN
 #else
-#define PRODUCT_NAME			"SWGLSPconfig"
+#define PRODUCT_NAME			"SWGASPconfig"
 
-#define CLIENT_WINDOW_TITLE "Star Wars: Galactic Legacy SP"
-#define CLIENT_CONSOLE_TITLE "Star Wars: Galactic Legacy SP Console"
-#define HOMEPATH_NAME_UNIX "SWGL"
-#define HOMEPATH_NAME_WIN "SWGL"
+#define CLIENT_WINDOW_TITLE "Star Wars: Galactic Adventures SP"
+#define CLIENT_CONSOLE_TITLE "Star Wars: Galactic Adventures SP Console"
+#define HOMEPATH_NAME_UNIX "SWGA"
+#define HOMEPATH_NAME_WIN "SWGA"
 #define HOMEPATH_NAME_MACOSX HOMEPATH_NAME_WIN
 #endif
 
 #define	BASEGAME "base"
-#define OPENJKGAME "SWGL"
+#define OPENJKGAME "SWGA"
 
 #define Q3CONFIG_NAME PRODUCT_NAME ".cfg"
 

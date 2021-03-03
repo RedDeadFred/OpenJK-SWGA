@@ -30,9 +30,9 @@ along with this program; if not, see <http://www.gnu.org/licenses/>.
 vm_t *currentVM = NULL;
 
 static const char *vmNames[MAX_VM] = {
-	"swglmpgame",
-	"swglcgame",
-	"swglui"
+	"swgampgame",
+	"swgacgame",
+	"swgaui"
 };
 
 const char *vmStrs[MAX_VM] = {

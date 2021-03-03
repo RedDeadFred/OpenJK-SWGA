@@ -387,18 +387,18 @@ endif()
 if(WIN32)
 	install(TARGETS ${SPGame}
 		RUNTIME
-		DESTINATION "${JKAInstallDir}/SWGL"
+		DESTINATION "${JKAInstallDir}/SWGA"
 		COMPONENT ${JKASPClientComponent})
 else(WIN32)
 	if(MakeApplicationBundles AND BuildSPEngine)
 		install(TARGETS ${SPGame}
 			LIBRARY
-			DESTINATION "${JKAInstallDir}/${SPEngine}.app/Contents/MacOS/SWGL"
+			DESTINATION "${JKAInstallDir}/${SPEngine}.app/Contents/MacOS/SWGA"
 			COMPONENT ${JKASPClientComponent})
 	else()
 		install(TARGETS ${SPGame}
 			LIBRARY
-			DESTINATION "${JKAInstallDir}/SWGL"
+			DESTINATION "${JKAInstallDir}/SWGA"
 			COMPONENT ${JKASPClientComponent})
 	endif()
 endif()
