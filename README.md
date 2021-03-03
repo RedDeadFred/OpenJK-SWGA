@@ -1,10 +1,20 @@
+# SWGA
+
+Star Wars: Galactic Adventures is a modification for Jedi Academy built from the OpenJK framework by the JACoders group.
+
+<a href="https://discord.gg/s9dshuZ5G2"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
+
+## SWGA Significant Contributors
+
+* RedDeadFred
+
 # SWGL
 
-Star Wars: Galactic Legacy is a modification for Jedi Academy built from the OpenJK framework by the JACoders group.
+Star Wars: Galactic Adventures is partnered with the Star Wars: Galactic Adventures modification (https://github.com/linken233/OpenJK-SWGL/blob/swgl-master/README.md)
 
 <a href="https://discord.gg/hChZNvJ"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
-## Significant Contributors
+## SWGL Significant Contributors
 
 * Linken
 * The New Order
