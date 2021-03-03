@@ -10,7 +10,7 @@ Star Wars: Galactic Adventures is a modification for Jedi Academy built from the
 
 # SWGL
 
-Star Wars: Galactic Adventures is partnered with the Star Wars: Galactic Legacy modification (https://github.com/linken233/OpenJK-SWGL/blob/swgl-master/README.md)
+Star Wars: Galactic Adventures is partnered with the Star Wars: Galactic Legacy modification (https://github.com/linken233/OpenJK-SWGL)
 
 <a href="https://discord.gg/hChZNvJ"><img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" /></a>
 
